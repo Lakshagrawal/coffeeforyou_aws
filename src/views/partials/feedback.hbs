@@ -1,0 +1,55 @@
+<section class="contact_us mt-5">
+    <div class="container text-center">
+        <div class="row-contact text-center">
+
+            <form action="/process-contact-form" method="post">
+
+
+                <div class="container-name">
+                    <div class="col-md-12 d-flex flex-row" id="contact-name">
+                        <div class="mb-3 w-50">
+                            <label class="form-label ">First Name</label>
+                            <input type="text" class="form-control" name="first_name" placeholder="First Name">
+                        </div>
+                        <div class="mb-3 w-50">
+                            <label class="form-label ">Last Name </label>
+                            <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-12">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" name="number" id="exampleFormControlInput1"
+                            placeholder="9414XXXXXX">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" name="address" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Remaks & Feedback</label>
+                        <textarea class="form-control" name="query" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="container text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+        </div>
+
+
+
+        </form>
+    </div>
+    {{!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+</section>
+<br>
+<hr>

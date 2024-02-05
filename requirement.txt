@@ -1,0 +1,5 @@
+npm install express
+npm install mongoose
+npm install body-parser
+npm install hbs
+npm install nodemon --save-dev

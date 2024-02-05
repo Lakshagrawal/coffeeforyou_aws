@@ -1,0 +1,23 @@
+{
+  "name": "website-dynamic",
+  "version": "1.0.0",
+  "description": "This the dynamic website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e hbs,js,json"
+  },
+  "author": "Lakshya Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.4",
+    "mongoose": "^6.10.0",
+    "node": "^19.8.1",
+    "nodemon": "^2.0.20",
+    "swiper": "^9.1.1"
+  }
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoffeeForYou | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <meta name="description" content="Life can be very Stressfull and hectic, there is nothing more important than starting each day off on the right foot. Grab a mug on our shop Coffeeforyou." />
+  <meta name="keywords" content="Coffeeforyou, Coffeeforyou india, Coffeeforyou best coffee, cafe Coffeeforyou coffee" />
+  <meta property="og:type" content="Homepage" />
+  <meta property="og:title" content="It all starts with a COFFEEFORYOU®" />
+  <meta name="twitter:card" content="product" />
+  <meta name="twitter:site" content="@Coffeeforyou India" />
+  <meta name="twitter:title" content="It all starts with a COFFEEFORYOU®" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta content="ie=edge" http-equiv="x-ua-compatible" />
+  <style>
+    * {
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    .navbar {
+      font-family: 'Merriweather', serif;
+    }
+
+    .partner1 {
+      background-image: url({{partner.image1}});
+    }
+
+    .partner2 {
+      background-image: url({{partner.image2}});
+    }
+  </style>
+</head>
+
+<body>
+
+  {{>navbar data=details}}
+  
+  {{>slider slides=slider}}
+
+
+
+  {{!-- {{Our Journey}} --}}
+
+{{!-- <div class="container">
+  <section id="Journey_section" class="py-4">
+    <div class="container">
+      <h1 class="text-center text-primary Journey_section_heading"><strong> Our Journey </strong></h1>
+      <div class="text-center">
+        <h4>
+          {{journey.par1}}
+        </h4>
+        <a class=" text-success" href="/journey">Read more...--></a>
+      </div>
+      <br>
+    </div>
+  </section>
+</div> --}}
+
+  {{!-- <hr> --}}
+
+
+
+  {{!-- {{Popular Product}} --}}
+  <div class="container">
+  <div class="row">
+    <div class="container text-center my-3"><h1 class="font-weight-bold text-decoration-underline">Popular product</h1></div>
+  {{#each popular_product}}
+        <div class="col-md-4 product_align" style="justify-content: center; margin-bottom: 8px; margin-top: 5px;}">
+          <div class="card " style="width: 18rem;">
+            <img src={{this.imageUrl1}} class="card-img-top" alt="slider photo for front page">
+            <div class="card-body shadow p-3 mb-3 bg-plack rounded">
+              <h5 class="card-title text-black">{{this.title1}} </h5>
+              <p class="card-text text-black">{{this.para1}} </p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4 product_align" style="justify-content: center; margin-bottom: 8px; margin-top: 5px;}">
+          <div class="card " style="width: 18rem;">
+            <img src={{this.imageUrl2}} class="card-img-top" alt="...">
+            <div class="card-body shadow p-3 mb-3 bg-plack rounded">
+              <h5 class="card-title text-black">{{this.title2}} </h5>
+              <p class="card-text text-black">{{this.para2}} </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 product_align" style="justify-content: center; margin-bottom: 8px; margin-top: 5px;}">
+          <div class="card " style="width: 18rem;">
+            <img src={{this.imageUrl3}} class="card-img-top" alt="...">
+            <div class="card-body shadow p-3 mb-3 bg-plack rounded">
+              <h5 class="card-title text-black">{{this.title3}} </h5>
+              <p class="card-text text-black">{{this.para3}} </p>
+            </div>
+          </div>
+        </div>
+
+  {{/each}}
+
+  </div>
+  </div>
+     
+  {{!-- <hr> --}}
+  {{!-- <br> --}}
+
+
+
+  {{!-- {{Partner with us }} --}}
+  <div class="container my-2">
+  <section class="partner-with-us-section">
+    <div class="partner-with-us container-fluid text-center mt-4 mb-5">
+      <div class="row p-2 justify-content-between align-items-center">
+
+        <div class="col-md-6 partner1 pt-5">
+          <a href="/about" class="read_more1">
+            <h1>Partner with us</h1>
+          </a>
+           <div class="container">
+          <p class="white_color">{{partner.text1}}</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 partner2 pt-5">
+          <a href="/contact" class="read_more1">
+            <h1>Contact us</h1>
+          </a>
+          <div class="container">
+          <p class="white_color">{{partner.text2}}</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </div>
+  <hr>
+
+
+  {{!-- {{Fotter}} --}}
+  {{>footer foot=footer}}
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
+

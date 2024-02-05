@@ -1,0 +1,146 @@
+Journey.create(
+        {
+            par1:"Ravi had always been passionate about coffee and dreamed of one day opening his own coffee shop. He spent years perfecting his craft, learning everything he could about different types of coffee beans, roasting techniques, and brewing methods. One day, Ravi decided it was time to take the leap and open his own coffee shop. He spent months researching locations and finding the perfect spot for his shop. He secured a small space in a bustling part of town and began to bring his dream to life",
+            par2:"Ravi poured his heart and soul into his coffee shop, carefully selecting the best beans, creating unique blends, and perfecting his brewing techniques. He worked tirelessly to create a warm and inviting atmosphere, carefully selecting the decor and training his staff to provide top-notch customer service. In the early days, business was slow, and Ravi struggled to attract customers. But he refused to give up, working long hours and constantly experimenting with new ideas to attract business. Slowly but surely, his coffee shop began to gain a following, with regulars stopping in every day for their favorite brew."
+        },
+        {
+            par1:"Years later, Ravi's coffee shop has become a beloved institution in the community, with people coming from all over town to enjoy his coffee and soak up the cozy atmosphere. Ravi is proud of what he has built and grateful for the journey that led him there. Ravi's coffee shop became a hub of activity, with people meeting for business, dates, or just to catch up with friends. He expanded his offerings, adding pastries, sandwiches, and other treats to his menu",
+            par2:"Ravi's coffee shop became known not just for its delicious coffee, but also for its commitment to sustainability. He worked with local farmers to source his beans, and made sure that all of his packaging and cups were recyclable or compostable. Today, Ravi's coffee shop is still going strong, a testament to his hard work, dedication, and love of the craft. He continues to experiment with new blends and brewing techniques, always striving to deliver the best possible coffee experience to his customers. And he remains grateful for the journey that brought him to where he is today.",
+        },
+        {
+            par1:"Ravi's coffee shop became a cultural landmark, as many people would come to enjoy the artwork on display, the live music performances, and poetry readings that he would organize from time to time. He also made sure to give back to his community by donating a portion of his profits to local charities. As his coffee shop continued to grow in popularity, Ravi began to think about expansion. He opened up a second location across town and hired a team to help him manage both shops. He invested in better equipment and technology, and trained his staff to maintain the high standards that had made his coffee shop so beloved.",
+            par2:"But even with all his success, Ravi never lost sight of why he started the coffee shop in the first place - his passion for coffee and the joy it brings to people's lives. He continued to innovate and experiment, always striving to create new and exciting blends and brewing methods. And while the coffee shop had grown beyond his wildest dreams, Ravi still felt a sense of pride every time he saw a satisfied customer sipping on a cup of his coffee. For Ravi, the coffee shop was more than just a business - it was a labor of love, a testament to the power of hard work, dedication, and passion",
+        },
+
+    )
+
+
+
+Product.create(
+        {
+            imageUrl:"https://www.nescafe.com/in/sites/default/files/2022-06/americano-thumbnail-desktop.jpg",
+            title:"Mocolo",
+            para:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            bigPara:"Coffee is a popular beverage made from roasted coffee beans, which are the seeds of the Coffea plant. It is typically consumed for its caffeine content, which provides a stimulating effect on the body and mind. Coffee can be brewed in a variety of ways, including drip brewing, French press, and espresso. It is enjoyed by millions of people worldwide and has a long and rich history dating back centuries.",
+        },
+        {
+            imageUrl:"https://www.nescafe.com/in/sites/default/files/2022-06/americano-thumbnail-desktop.jpg",
+            title:"Mocolo1",
+            para:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            bigPara:"Coffee is a popular beverage made from roasted coffee beans, which are the seeds of the Coffea plant. It is typically consumed for its caffeine content, which provides a stimulating effect on the body and mind. Coffee can be brewed in a variety of ways, including drip brewing, French press, and espresso. It is enjoyed by millions of people worldwide and has a long and rich history dating back centuries.",
+
+        },
+        {
+            imageUrl:"https://www.nescafe.com/in/sites/default/files/2022-06/cortado-thumbnail-desktop.jpg",
+            title:"Mocolo2",
+            para:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            bigPara:"Coffee is a popular beverage made from roasted coffee beans, which are the seeds of the Coffea plant. It is typically consumed for its caffeine content, which provides a stimulating effect on the body and mind. Coffee can be brewed in a variety of ways, including drip brewing, French press, and espresso. It is enjoyed by millions of people worldwide and has a long and rich history dating back centuries.",
+
+        },
+        {
+            imageUrl:"https://www.nescafe.com/in/sites/default/files/2022-06/macchiato-thumbnail-desktop.jpg",
+            title:"Mocolo3",
+            para:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            bigPara:"Coffee is a popular beverage made from roasted coffee beans, which are the seeds of the Coffea plant. It is typically consumed for its caffeine content, which provides a stimulating effect on the body and mind. Coffee can be brewed in a variety of ways, including drip brewing, French press, and espresso. It is enjoyed by millions of people worldwide and has a long and rich history dating back centuries.",
+
+        },
+        {
+            imageUrl:"https://www.nescafe.com/in/sites/default/files/2022-06/flat-white-thumbnail-desktop.jpg",
+            title:"Mocolo4",
+            para:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            bigPara:"Coffee is a popular beverage made from roasted coffee beans, which are the seeds of the Coffea plant. It is typically consumed for its caffeine content, which provides a stimulating effect on the body and mind. Coffee can be brewed in a variety of ways, including drip brewing, French press, and espresso. It is enjoyed by millions of people worldwide and has a long and rich history dating back centuries.",
+
+        },
+    )
+
+
+
+Footer.create(
+        {
+            par1:"This is coffee for you you love it to the core",
+            address:"patna, bihari",
+            email:"abs@gmail.com",
+            number:"9414918685",
+            links:[
+                {
+                    label_icon:"fa-brands fa-square-facebook",
+                    url:"https://www.facebook.com/"
+                },
+                {
+                    label_icon:"fab fa-twitter",
+                    url:"https://www.twitter.com/"
+                },
+                {
+                    label_icon:"fab fa-instagram",
+                    url:"https://www.instagram.com"
+                },
+                {
+                    label_icon:"fab fa-linkedin",
+                    url:"https://www.linkedin.com"
+                },
+            ],
+
+        }
+    )
+
+
+
+Slider.create(
+        {
+            title: "This is the best coffee in the company1",
+            subTitle:"It is bad to drink too much coffee",
+            imageUrl:"/static/images/coffee1.jpg",
+            imageUrlOpen:"#",
+            class:"active",
+        },
+        {
+            title: "This is the best coffee in the company 2",
+            subTitle:"It is bad to drink too much coffee",
+            imageUrl:"/static/images/coffee2.jpg",
+            imageUrlOpen:"#",
+            class:"",
+        },
+        {
+            title: "This is the best coffee in the company3",
+            subTitle:"It is bad to drink too much coffee",
+            imageUrl:"/static/images/coffee5.jpg",
+            imageUrlOpen:"#",
+            class:"",
+        },
+        {
+            title: "This is the best coffee in the company4",
+            subTitle:"It is bad to drink too much coffee",
+            imageUrl:"/static/images/coffee4.jpg",
+            imageUrlOpen:"#",
+            class:"",
+        },
+    )
+
+
+
+detail.create({
+        brandName:"Coffee for you",
+        brandIconUrl:"https://yt3.googleusercontent.com/h5GQrHvmmOeneN9Wa7RlEBz8ADQwhQu7TsOX1NNRiFgfrVmAwYWxu5kCrdWowJV5sHd5SpizPf4=s176-c-k-c0x00ffffff-no-rj",
+        links:[
+            {
+                label:"Home",
+                url:"/",
+            },
+            {
+                label:"Services",
+                url:"/services",
+            },
+            {
+                label:"Gallery",
+                url:"/gallery",
+            },
+            {
+                label:"About",
+                url:"/about",
+            },
+            {
+                label:"Contact Us",
+                url:"/contact",
+            },
+        ]
+    })
